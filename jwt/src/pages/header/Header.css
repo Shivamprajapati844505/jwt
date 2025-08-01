@@ -1,0 +1,30 @@
+/* Header.css */
+
+.navbar {
+  background-color: #212529;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Remove underline from links */
+.no-underline {
+  text-decoration: none !important;
+}
+
+.no-underline:hover {
+  text-decoration: none !important;
+}
+
+/* Stack buttons on mobile */
+@media (max-width: 576px) {
+  .navbar .nav-link {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: right;
+  }
+}
